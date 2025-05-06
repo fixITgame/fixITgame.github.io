@@ -60,7 +60,7 @@ max_draw_calls = 1024
 max_characters = 8192
 max_font_batches = 128
 max_debug_vertices = 10000
-texture_profiles = /test.texture_profiles
+texture_profiles = /test2.texture_profiles
 verify_graphics_calls = 1
 opengl_version_hint = 33
 opengl_core_profile_hint = true
@@ -160,7 +160,7 @@ app_icon =
 
 [html5]
 custom_heap_size = 0
-heap_size = 1024
+heap_size = 256
 htmlfile = /builtins/manifests/web/engine_template.html
 cssfile = /builtins/manifests/web/light_theme.css
 archive_location_prefix = archive
@@ -169,8 +169,8 @@ engine_arguments = --verify-graphics-calls=false
 wasm_streaming = 0
 show_fullscreen_button = 1
 show_made_with_defold = 0
-show_console_banner = 1
-scale_mode = fit
+show_console_banner = 0
+scale_mode = downscale_fit
 transparent_graphics_context = 0
 
 [particle_fx]
@@ -209,6 +209,6 @@ max_tile_count = 2048
 
 [engine]
 run_while_iconified = 0
-fixed_update_frequency = 1000
-max_time_step = 0.5
+fixed_update_frequency = 500
+max_time_step = 0.1
 
