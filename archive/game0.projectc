@@ -17,7 +17,7 @@ fullscreen = 0
 update_frequency = 0
 swap_interval = 1
 vsync = 1
-display_profiles = /builtins/render/default.display_profilesc
+display_profiles = /defaultc.display_profilesc
 dynamic_orientation = 0
 display_device_info = 0
 
@@ -60,7 +60,7 @@ max_draw_calls = 1024
 max_characters = 8192
 max_font_batches = 128
 max_debug_vertices = 10000
-texture_profiles = /builtins/graphics/default.texture_profiles
+texture_profiles = /test.texture_profiles
 verify_graphics_calls = 1
 opengl_version_hint = 33
 opengl_core_profile_hint = true
@@ -76,6 +76,7 @@ max_sound_buffers = 32
 max_sound_sources = 16
 max_sound_instances = 256
 max_component_count = 32
+sample_frame_count = 0
 use_thread = 1
 
 [resource]
@@ -166,7 +167,7 @@ archive_location_prefix = archive
 archive_location_suffix = 
 engine_arguments = --verify-graphics-calls=false
 wasm_streaming = 0
-show_fullscreen_button = 0
+show_fullscreen_button = 1
 show_made_with_defold = 0
 show_console_banner = 1
 scale_mode = fit
