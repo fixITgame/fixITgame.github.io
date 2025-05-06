@@ -32,7 +32,7 @@ type = 2D
 max_collision_object_count = 128
 use_fixed_timestep = 1
 gravity_y = -900.0
-debug = 0
+debug = 1
 debug_alpha = 0.9
 world_count = 4
 gravity_x = 0
@@ -165,7 +165,7 @@ htmlfile = /builtins/manifests/web/engine_template.html
 cssfile = /builtins/manifests/web/light_theme.css
 archive_location_prefix = archive
 archive_location_suffix = 
-engine_arguments = 
+engine_arguments = --verify-graphics-calls=false
 wasm_streaming = 0
 show_fullscreen_button = 1
 show_made_with_defold = 0
