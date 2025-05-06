@@ -47,7 +47,7 @@ var CUSTOM_PARAMETERS = {
     archive_location_filter: function( path ) {
         return ("archive" + path + "");
     },
-    engine_arguments: [],
+    engine_arguments: ["--verify-graphics-calls=false",],
     custom_heap_size: 268435456,
     full_screen_container: "#canvas-container",
     disable_context_menu: true,
@@ -233,9 +233,9 @@ var FileLoader = {
 var EngineLoader = {
     
     
-    wasm_size: 2993623,
+    wasm_size: 2447038,
     
-    wasmjs_size: 264237,
+    wasmjs_size: 264245,
     
     asmjs_size: 4000000,
     wasm_instantiate_progress: 0,
